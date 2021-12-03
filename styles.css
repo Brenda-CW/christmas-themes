@@ -1,0 +1,92 @@
+:root {
+    --wine-red: #C7375F;
+    --bright-red: #aa253c;
+    --dark-green: #006400;
+    --dark-blue: #2d38da;
+    --light-blue: #58d4d8;
+    --gold: #FAC57D;
+    --snow: #F0F4F7;
+  }
+  
+  html, body {
+      margin: 0;
+      padding: 0;
+  }
+  
+  body,
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+  
+  body {
+      background-color: var(--bright-red);
+      height: 100vh;
+  }
+  
+  .container {
+      background: var(--snow);
+      flex-direction: column;
+      border-radius: 10px;
+      padding: 3em;
+      margin: 20px;
+      max-width: 85%;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  
+  p {
+      font-size: 45px;
+  }
+  
+  #greeting {
+    text-align: center;
+  }
+  .radio-container {
+      width: 200px;
+      font-size: 22px;
+  }
+  
+  .christmas {
+      font-family: 'Mountains of Christmas', cursive;
+      color: var(--dark-green);
+      background-color: var(--bright-red);
+  }
+  
+  /* Body style for snow theme */
+  .snow {
+      font-family: 'Lobster Two', cursive;
+      color: var(--snow);
+      background-color: var(--snow);
+      background-image: url("./img/jessica-fadel-SH4GNXNj1RA-unsplash.jpg");
+      background-size: cover;
+  }
+  
+    /* Style for container with snow theme */
+  .snow .container {
+      color: var(--snow);
+      background-color: var(--dark-blue);
+  }
+
+  .candyCane {
+    font-family: 'Kavoon', cursive;
+    color: var(--bright-red);
+    background-image: url("./img/candy-canes-stripes-art-by-linda-woods-linda-woods.jpeg");
+    background-size: cover;
+  }
+
+  .candyCane .container {
+    color: var(--snow);
+    color: var(--bright-red);
+  }
+
+  footer {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+      margin: 15px;
+      color:var(--snow);
+  }
+  
